@@ -1,12 +1,15 @@
 
-import controllers.ContactoControllers;
+//import controllers.ContactoControllers;
 //import controllers.Sets;
+import controllers.Ejercicios;
 
 
 
 public class App {
     public static void main(String[] args) throws Exception {
         //Sets sets = new Sets();
+        Ejercicios Ej = new Ejercicios();
+        
         /* 
         runLinkedHashSet(sets);
         runHashSet(sets);
@@ -14,6 +17,7 @@ public class App {
         runTreeSetConComparador(sets);
         runTreeSetConComparadorPorUltimaLetra(sets);
         */
+        /* 
         ContactoControllers contacto = new ContactoControllers();
         System.out.println("Ordenada por Apellido - Nombre");
         contacto.runTreeContacto();
@@ -21,6 +25,7 @@ public class App {
         contacto.runTreeContactoConTelefono();
         System.out.println("Agenda ordenada por Hashcode");
         contacto.runTreeContactoNuevo();
+        */
     /*   
     }
     public static void runHashSet(Sets sets) {
